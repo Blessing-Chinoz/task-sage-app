@@ -362,7 +362,7 @@ const TodoApp = () => {
   const totalTasks = tasks.length;
   const completedTasks = tasks.filter((task) => task.completed).length;
   const activeTasks = totalTasks - completedTasks;
-  const importantTasks = tasks.filter((task) => task.important).length;
+  // const importantTasks = tasks.filter((task) => task.important).length;
 
   // Category statistics
   const categoryCounts = {};
